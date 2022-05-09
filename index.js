@@ -101,15 +101,15 @@ function getTheme() {
     let sectionTitle = document.querySelectorAll('.section-title');
     
     for (let i = 0; i < sections.length; i++) {
-        sections[i].classList.add('light-theme');
+        sections[i].classList.toggle('light-theme');
     }
 
     for (let i = 0; i < sectionHeader.length; i++) {
-        sectionHeader[i].classList.add('light-theme');
+        sectionHeader[i].classList.toggle('light-theme');
     }
 
     for (let i = 0; i < sectionTitle.length; i++) {
-        sectionTitle[i].classList.add('light-theme');
+        sectionTitle[i].classList.toggle('light-theme');
     }
 }
 
