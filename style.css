@@ -99,7 +99,7 @@ section {
     height: 45px;
     margin-left: 30px;
     transition: .3s;
-    background: url(../assets/icons/theme.svg);
+    background: url(assets/icons/theme.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
