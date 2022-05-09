@@ -659,11 +659,10 @@ section {
         margin-bottom: 0;
     }
 
-    /*.video-player {
-        width: 480px;
-        height: 240px;    
+    .video-player {
+        background-position: -100px;    
         
-    }*/
+    }
 
     .video-button {
         width: 65px;
@@ -683,6 +682,7 @@ section {
 
     .contact {
       padding-top: 40px;
+      background-position: -270px;
     }
 
     .contacts-container {
