@@ -183,7 +183,7 @@ section {
 .intro-text {
     font-size: 20px;
     /*line-height: 2;*/
-    width: 470px;
+    max-width: 470px;
     margin-bottom: 25px;
     
 }
@@ -397,7 +397,7 @@ section {
 .contact-input {
     background: transparent;
     border: 2px solid var(--color-sargysh);
-    width: 450px;
+    max-width: 100%;
     padding: 5px 20px;
     color: var(--color-sargysh);
     font-family: inherit;
@@ -560,7 +560,7 @@ section {
     }
 
     .section-header {
-        width: 364px;
+        width: 350px;
         margin-bottom: 50px;
     }
 
@@ -651,19 +651,19 @@ section {
     }
 
     .portfolio-img {
-        width: 430px;
-        height: 530px;
+        width: 320px;
+        /*height: 530px;*/
     }
 
     .skills-items {
         margin-bottom: 0;
     }
 
-    .video-player {
+    /*.video-player {
         width: 480px;
         height: 240px;    
         
-    }
+    }*/
 
     .video-button {
         width: 65px;
@@ -678,11 +678,15 @@ section {
     
     .price-item {
         padding: 40px 70px;
+        width: 320px;
     }
 
     .contact {
-
       padding-top: 40px;
+    }
+
+    .contacts-container {
+        width: 100%;
     }
 
     .footer {
